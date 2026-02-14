@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+a.active hr{
+    display: block;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+@media (max-width:640px) {
+    a.active{
+        color: red;
+    }
+   
+}

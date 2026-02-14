@@ -1,0 +1,17 @@
+@import "tailwindcss";
+* {
+    font-family: 'Playfair Display', serif;
+}
+.active {
+  background-color: #ffebf5;
+  border-color: #c586c5;
+  /* color: palevioletred; */
+}
+input{
+  accent-color: black;
+}
+select ,input,textarea{
+  border: 1px solid #c586c5;
+  border-radius: 0.375rem;
+  padding: 0.5rem;
+}
